@@ -4,7 +4,17 @@ target "FindYourUniversity" do
     use_frameworks!
     project "Sources/FindYourUniversity.xcodeproj"
 
-    pod "RxSwift"
-    pod "RxCocoa"
-end
+    pod "Alamofire"
 
+    pod "RxSwift"
+
+    # Rx utilities
+    pod "RxCocoa"
+    pod "NSObject+Rx"
+    pod "RxReachability"
+    pod "RxAlamofire"
+    pod "Action"
+    pod "RxDataSources"
+    pod "RxUIAlert"
+    # pod "RxMKMapView"
+end
