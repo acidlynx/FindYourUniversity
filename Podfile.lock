@@ -29,6 +29,7 @@ PODS:
   - RxUIAlert (1.3.1):
     - RxCocoa
     - RxSwift
+  - VK-ios-sdk (1.5.1)
 
 DEPENDENCIES:
   - Action
@@ -40,6 +41,7 @@ DEPENDENCIES:
   - RxReachability
   - RxSwift
   - RxUIAlert
+  - VK-ios-sdk
 
 SPEC REPOS:
   trunk:
@@ -55,6 +57,7 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - RxUIAlert
+    - VK-ios-sdk
 
 SPEC CHECKSUMS:
   Action: 79e6c5dc91e13eea045ab6744b3e5609086671aa
@@ -69,7 +72,8 @@ SPEC CHECKSUMS:
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   RxUIAlert: 1f6df0b98b1a16143e2e377846fe01a70d561918
+  VK-ios-sdk: 62a10b6571fbcda0657f455fedce7fedf55b4cd0
 
-PODFILE CHECKSUM: f65050d8caa0f0f53943b7fc7b08525de9e73b24
+PODFILE CHECKSUM: 5a5b9b9d0e8b1867102668395330b77b39ae76c8
 
 COCOAPODS: 1.9.3

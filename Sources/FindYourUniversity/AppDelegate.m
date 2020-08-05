@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import <VKSdk.h>
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    VKSdk *sdkInstance = [VKSdk initializeWithAppId:@"7558765" apiVersion:@"5.122"];
+    
     return YES;
 }
 
@@ -81,6 +86,12 @@
         NSLog(@"Unresolved error %@, %@", error, error.userInfo);
         abort();
     }
+}
+
+#pragma mark - URL handling
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
+    [VKSdk processOpenURL:url fromApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]];
+    return YES;
 }
 
 @end

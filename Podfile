@@ -5,8 +5,8 @@ target "FindYourUniversity" do
     project "Sources/FindYourUniversity.xcodeproj"
 
     pod "Alamofire"
-
     pod "RxSwift"
+    pod "VK-ios-sdk"
 
     # Rx utilities
     pod "RxCocoa"
