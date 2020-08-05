@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import <VKSdk.h>
+#import "FYUAppStateViewModel.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +20,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    VKSdk *sdkInstance = [VKSdk initializeWithAppId:@"7558765" apiVersion:@"5.122"];
+    FYUAppStateViewModel *stateViewModel = [[FYUAppStateViewModel alloc] init];
+    [stateViewModel setupLibraries];
     
     return YES;
 }

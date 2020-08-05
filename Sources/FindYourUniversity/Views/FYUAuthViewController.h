@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FYUAuthViewController.h
 //  FindYourUniversity
 //
 //  Created by Oleg Fedjakin on 05.08.2020.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface FYUAuthViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

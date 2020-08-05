@@ -18,3 +18,7 @@ This repo contains the test project for job application. Task see at [this pdf](
 # Future tasks
  - generate xcodeproj via `xcodegen` tool
  - use `fastlane` tool for handy management
+
+# Used tools
+ - Postman for API testing
+ - VK public API [https://vk.com/dev/database](https://vk.com/dev/database)
